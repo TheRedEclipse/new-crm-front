@@ -1,0 +1,141 @@
+/*
+  Vue Multiselect
+*/
+
+.multiselect {
+  &__select {
+    height: 38px !important;
+    top: 1px !important;
+  }
+
+  &--active {
+    .multiselect__tags {
+      background-color: #D2E9F8;
+    }
+  }
+
+  &__single {
+    color: #1A051D !important;
+  }
+
+  &__tags {
+    background: #FFFFFF;
+    border: 1px solid #ced4da !important;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.04);
+    border-radius: 6px !important;
+    padding: 3px 40px 3px 18px !important;
+    color: rgba(50, 60, 71, 0.5);
+    min-height: 38px !important;
+  }
+
+  .multiselect__tag {
+    background: #0097fb;
+
+    &-icon:after {
+      color: #ffffff;
+    }
+
+    &-icon:hover, 
+    &-icon:focus {
+      background: #32acfd;
+    }
+  }
+
+  &__input,
+  &__single {
+    color: rgba(50, 60, 71, 0.5);
+    font-size: 14px !important;
+    margin: 5px 0 5px 0 !important;
+    padding-left: 0 !important;
+    background: transparent !important;
+
+    &::placeholder {
+      color: rgba(50, 60, 71, 0.5);
+    }
+  }
+
+  &__placeholder {
+    color: rgba(50, 60, 71, 0.5) !important;
+    margin: 3px 0 !important;
+  }
+
+  &__option {
+    &--highlight {
+      background: #0097FB !important;
+
+      &:after {
+        background: #0097FB !important;
+      }
+    }
+  }
+
+  &__content {
+    border: 1px solid #ced4da !important;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: auto;
+    max-height: 240px !important;
+
+    &-wrapper {
+      margin: 5px 0 !important;
+      border: none !important;
+      overflow: visible !important;
+      max-height: 240px !important;
+    }
+  }
+}
+
+/*
+  Toasted
+*/
+
+.toasted-container {
+  &.top-right {
+    top: 6% !important;
+    right: 4% !important;
+  }
+
+  .toasted-primary.error {
+      background: #ea1139 !important;
+  }
+
+  .toasted {
+    padding-right: 54px !important;
+
+    .action {
+      padding: 1rem;
+      margin: -1rem -1.2rem -1rem;
+      font-size: 1.2rem;
+      font-weight: 100;
+      height: 100%;
+      position: absolute;
+      right: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff !important;
+      min-width: 34px;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+        text-decoration: none !important;
+      }
+    }
+  }
+}
+
+/*
+  Owl Carousel
+*/
+
+.owl-carousel {
+  .owl-stage {
+    margin-left: 1px;
+
+    // &-outer {
+    //   display: flex;
+    //   justify-content: flex-end;
+    // }
+  }
+}

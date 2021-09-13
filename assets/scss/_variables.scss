@@ -1,0 +1,85 @@
+$body-bg: #fff;
+$body-color: #1A051D;
+
+$tooltip-arrow-color: #080b17;
+$tooltip-bg: #080b17;
+
+$dropdown-border-width: 0;
+$dropdown-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$dropdown-border-radius: 6px;
+
+$nav-tabs-link-hover-border-color: none;
+$nav-tabs-link-active-border-color: transparent transparent #dee2e6;
+$nav-tabs-link-active-color: #1A051D;
+$nav-tabs-link-active-bg: transparent;
+
+$modal-content-border-width: 0;
+$modal-content-border-radius: 3px;
+$modal-header-padding: 0.45rem;
+
+$headings-margin-bottom: 0;
+$headings-font-weight: 300;
+
+$h1-font-size: 1.625rem;
+$h2-font-size: 1.375rem;
+$h3-font-size: 1.2rem;
+
+$breadcrumb-margin-bottom: 0;
+$breadcrumb-font-size: 0.95rem;
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-active-color: #848484;
+
+$card-border-width: 0;
+$card-border-radius: 5px;
+
+$input-group-addon-color: #D0C9D6;
+$input-group-addon-bg: transparent;
+$input-group-addon-border-color: transparent;
+
+$btn-focus-box-shadow: none;
+$btn-active-box-shadow: none;
+$input-focus-box-shadow: none;
+$input-border-radius: 6px !important;
+
+$modal-backdrop-bg: #848484;
+$modal-backdrop-opacity: 0.45;
+$modal-header-padding: 0.6rem 0.85rem;
+
+$pagination-hover-bg: #fff;
+$pagination-border-width: 0;
+
+$table-cell-padding: 0.74rem;
+
+$badge-border-radius: 2px;
+$badge-padding-y: 8px;
+$badge-padding-x: 10px;
+
+$breadcrumb-divider: quote("→");
+
+$spinner-width: 3rem;
+$spinner-height: 3rem;
+$spinner-border-width: 0.15em;
+
+$spinner-width-sm: 1.5rem;
+$spinner-height-sm: 1.5rem;
+$spinner-border-width-sm: 0.12em;
+
+$grid-breakpoints: (
+	zs: 0,
+	xs: 1px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1700px
+);
+
+$container-max-widths: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1600px
+);
